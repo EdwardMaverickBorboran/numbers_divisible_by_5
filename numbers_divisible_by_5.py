@@ -21,5 +21,5 @@ print("The given list: ", setlist)
 # Looking for the numbers that are divisible by 5
 print("Numbers divisible by 5: ")
 for numbers in setlist:
-    if numbers % 5:
+    if numbers % 5 == 0:
         print(numbers)
