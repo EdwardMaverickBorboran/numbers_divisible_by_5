@@ -15,5 +15,11 @@
 # 55
 
 # Set of numbers given
-list = [10, 20, 33, 46, 55]
-print("The given list: ", list)
+setlist = [10, 20, 33, 46, 55]
+print("The given list: ", setlist)
+
+# Looking for the numbers that are divisible by 5
+print("Numbers divisible by 5: ")
+for numbers in setlist:
+    if numbers % 5:
+        print(numbers)
